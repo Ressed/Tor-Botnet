@@ -1,0 +1,44 @@
+dataset, feature, epoch, learning_rate, test_loss, test_acc, recall of positive, precision of positive
+dataset/ClosedWorld/NoDef, direction, 10, 0.002, 0.11073565576854791, 0.9733952879905701
+dataset/ClosedWorld/NoDef, direction, 30, 0.002, 0.09368511672894513, 0.9796241521835327
+dataset/ClosedWorld/NoDef, burst, 10, 0.002, 0.18281150780416824, 0.9540752172470093
+dataset/ClosedWorld/NoDef, burst, 30, 0.002, 0.1342716887215706, 0.9689611792564392
+dataset/ISCX-Tor-All, direction, 10, 0.0005, 0.031220157011511162, 0.9882978200912476
+dataset/ISCX-Tor-All, direction, 30, 0.0005, 0.013798386812692463, 0.9936169981956482
+dataset/ISCX-Tor-All, burst, 10, 0.0005, 0.1309189622964155, 0.9563829302787781
+dataset/ISCX-Tor-All, burst, 30, 0.0005, 0.04976982049931316, 0.9797872304916382
+dataset/ISCX-Tor-All, directional_timestamp, 10, 0.0005, 0.6004050792531764, 0.7904254794120789
+dataset/ISCX-Tor-All, directional_timestamp, 30, 0.0005, 0.372747066827055, 0.8680850863456726
+../datasets/tor-botnet/dataset, direction, 30, 0.002, 0.0006398060941137373, 1.0
+../datasets/tor-botnet/dataset, direction, 30, 0.002, 0.0011601957182089488, 1.0
+../datasets/tor-botnet/dataset, direction, 30, 0.002, 0.003598925191909075, 0.9999999403953552
+../datasets/tor-botnet/duration-dataset, direction, 30, 0.002, 0.4418998428366401, 0.8484848737716675
+../datasets/tor-botnet/dataset, direction, 30, 0.002, 0.6053133587303915, 0.7543859481811523
+../datasets/tor-botnet/dataset, direction, 30, 0.002, 0.015589150698169282, 1.0
+../datasets/tor-botnet/dataset, direction, 30, 0.002, 2.0556817646102196e-07, 1.0   # 截取前100个包的结果
+../datasets/tor-botnet/dataset-short, direction, 30, 0.002, 0.02626074602331726, 0.9879031777381897  # 截取前15个包
+../datasets/tor-botnet/dataset-short, direction, 30, 0.002, 0.1107103969346011, 0.9314515590667725  # 截取前7个
+
+../datasets/tor-botnet/dataset, direction, 30, 0.002, 2.4899043893356065e-07, 1.0  # 全部数据
+../datasets/tor-botnet/dataset-long, direction, 30, 0.002, 1.9371500476433373e-07, 1.0  # 只包含长度>=128的序列
+../datasets/tor-botnet/dataset, direction, 30, 0.002, 3.7540344792609225e-07, 1.0  # 截取序列的前128个包
+../datasets/tor-botnet/dataset, direction, 30, 0.002, 0.012709130261716764, 0.9939515590667725  # 截取序列的前32个包
+../datasets/tor-botnet/dataset, direction, 30, 0.002, 0.053289501672430385, 0.9858870506286621  # 截取序列的前8个包
+../datasets/tor-botnet/dataset, direction, 30, 0.002, 0.16566306190384972, 0.9193547964096069  # 截取序列的第8-16个包
+../datasets/tor-botnet/dataset, direction, 30, 0.002, 0.09332265222685472, 0.9637096524238586  # 截取序列的第8-24个包
+../datasets/tor-botnet/dataset-60s-only, direction, 30, 0.002, 6.652459382571073e-06, 1.0  # 只包含60s的数据
+../datasets/tor-botnet/dataset-60s-only, direction, 30, 0.002, 0.1269610830479198, 0.9513888955116272  # 截取只包含60s的第8-24个包
+
+../datasets/tor-botnet/dataset-unbalance, direction, 30, 0.002, 0.5779451628526052, 0.8888888955116272
+../datasets/tor-botnet/dataset-ISCX, direction, 30, 0.002, 0.24043161700440882, 0.9215494990348816
+../datasets/tor-botnet/dataset-ISCX, direction, 30, 0.002, 0.2188668059898191, 0.9326171875
+../datasets/tor-botnet/dataset-ISCX-512, direction, 30, 0.002, 0.1895628385725157, 0.9448529481887817
+../datasets/tor-botnet/dataset-ISCX-512, direction, 10, 0.002, 0.1711495132459437, 0.9503676891326904
+../datasets/tor-botnet/dataset-ISCX-512, direction, 10, 0.002, 0.17105566531273664, 0.9454657435417175
+../datasets/tor-botnet/dataset-ISCX-512, direction, 30, 0.01, 0.18795482601568686, 0.9405637383460999
+../datasets/tor-botnet/dataset-ISCX-512, direction, 30, 0.01, 0.1948290537750604, 0.9442402124404907
+../datasets/tor-botnet/dataset-ISCX-512, direction, 30, 0.01, 0.17759228616441583, 0.9454657435417175
+../datasets/tor-botnet/dataset-ISCX-512-2class, direction, 30, 0.01, 0.006334512797640878, 0.998774528503418
+../datasets/tor-botnet/dataset-unbalance, direction, 30, 0.005, 0.0005109351628784783, 0.9999502301216125
+../datasets/tor-botnet/dataset-ISCX-512-2class, direction, 10, 0.002, 0.0009336717375845183, 0.9993489384651184, 1.0, 0.99622642993927
+../datasets/tor-botnet/dataset-unbalance, direction, 10, 0.002, 0.00038060823316687, 0.9999004602432251, 0.9935483932495117, 0.9935483932495117

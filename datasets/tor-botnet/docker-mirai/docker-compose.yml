@@ -1,0 +1,13 @@
+version: '3'
+services:
+  cnc:
+    image: cnc
+    ports:
+      - "8080:23"
+  bot:
+    image: bot
+    links:
+      - cnc
+    depends_on:
+      - cnc
+  

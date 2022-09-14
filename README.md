@@ -37,7 +37,7 @@ AWF数据地址：https://github.com/DistriNet/DLWF
 
 ISCX-Tor数据地址：https://www.unb.ca/cic/datasets/tor.html
 
-datasets/tor-botnet中有一些已生成好的数据集，它们的描述在同目录下的readme.md中
+datasets/tor-botnet中有一些已生成好的数据集，其余的由于大小限制没法全部放上来
 
 
 ### 实验

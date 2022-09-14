@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/docker-mirai" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mirai" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/private-tor-network" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/private-tor-network/src/tor" vcs="Git" />
+  </component>
+</project>
